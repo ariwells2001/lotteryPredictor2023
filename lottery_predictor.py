@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 from datetime import datetime,timedelta
-from tqdm import tqdm
+# from tqdm import tqdm
 from PIL import Image
 from winning_history import showLatestWinningNumber,showWinningNumber
 from winning_ml import showMyLSTM
